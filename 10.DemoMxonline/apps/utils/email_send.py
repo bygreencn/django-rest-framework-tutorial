@@ -4,7 +4,7 @@ from  users.models import EmailVerifyRecord
 # 导入Django自带的邮件模块
 from django.core.mail import send_mail,EmailMessage
 # 导入setting中发送邮件的配置
-from Mxonline2.settings import EMAIL_FROM
+from Tutorial.settings import EMAIL_FROM
 # 发送html格式的邮件:
 from django.template import loader
 

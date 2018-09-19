@@ -75,7 +75,7 @@ class EmailVerifyRecord(models.Model):
         verbose_name=u"验证码类型")
     # 这里的now得去掉(),不去掉会根据编译时间。而不是根据实例化时间。
     send_time = models.DateTimeField(
-        default=datetime.now, verbose_name="发送时间")
+        default=datetime.now, verbose_name=u"发送时间")
 
     class Meta:
         verbose_name = "邮箱验证码"
