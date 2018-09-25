@@ -218,4 +218,8 @@ typings/
 .serverless
 
 
-# End of https://www.gitignore.io/api/node
+# IDE ignore
+*.wpu
+*.wpr
+.vscode/
+
